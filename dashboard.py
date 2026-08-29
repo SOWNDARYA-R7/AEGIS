@@ -91,4 +91,4 @@ with col2:
             with h_col2:
                 if st.button("Mark False Positive (-1 Penalty)"):
                     update_res = graph_db.update_knowledge(observed_payload, is_malicious=False)
-                    st.info(update_res)
+                    st.info(update_res) 
