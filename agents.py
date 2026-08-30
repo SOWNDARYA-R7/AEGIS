@@ -4,7 +4,7 @@ from crewai import Agent, Task, Crew, Process, LLM
 from crewai_tools import SerperDevTool
 
 # Set your Search API Key here
-os.environ["SERPER_API_KEY"] = "1d8498a29d91d4260951431326ce767ee1e9fab0"
+os.environ["SERPER_API_KEY"] = "Your_Serper_api_key"
 
 # Initialize the Tool
 search_tool = SerperDevTool()
